@@ -1,0 +1,32 @@
+body{
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.app > h3 {
+    flex: 0.3;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700 !important;
+}
+
+.button__Logout {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    text-transform: 700 inherit !important;
+    border-radius: 20px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    
+}
